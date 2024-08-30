@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webseite mit PDF-Links</title>
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .logo-container {
+            display: flex;
+            gap: 50px; /* Abstand zwischen den Logos */
+        }
+
+        .logo-container img {
+            width: 150px; /* Größe der Logos */
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-container">
+        <a href="pdf1.pdf" target="_blank">
+            <img src="Logo1.jpeg" alt="Logo 1">
+        </a>
+        <a href="pdf2.pdf" target="_blank">
+            <img src="Logo2.jpeg" alt="Logo 2">
+        </a>
+    </div>
+</body>
+</html>
